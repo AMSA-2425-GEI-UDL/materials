@@ -28,7 +28,7 @@ Benvinguts al repositori de materials del curs. Aquí trobareu totes les diaposi
 
 |Tema|Diapositives|Apunts|Descripció|
 |----|------------|------|----------|
-|Tema 0| [Diapositives](diapositives/tema0.pdf) | [Apunts](apunts/tema0.pdf) | Introducció al curs i Presentació de la temàtica |
+|Tema 0| [Diapositives](diapositives/AMSA_tema0.pdf) | - | Introducció al curs i Presentació de la temàtica |
 
 ## Requisits
 
