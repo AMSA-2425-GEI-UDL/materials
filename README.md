@@ -1,4 +1,4 @@
-# Materials del curs de Sistemes Operatius
+# Administració i Manteniment de Sistemes i Aplicacions
 
 |![](figs/logo.png)              |   ![](figs/institute.png)              |
 |-----------------|-----------------|
@@ -16,7 +16,6 @@
 - Contingut
 - Requisits
 - Instal·lació
-- Ús
 - Estructura del Repositori
 - Contribuir
 - Llicència
@@ -47,21 +46,23 @@ Per compilar els materials, seguiu aquests passos:
 
 1. Cloneu el repositori:
 
-```bash
-git clone
-```
+    ```bash
+    git clone
+    ```
 
 2. Utilitzeu el `Makefile` per compilar els materials:
 
 - Si voleu generar les diapositives:
 
-```bash
-make diapositives
-```
+    ```bash
+    make diapositives
+    ```
 
-## Ús
+- Si voleu generar els apunts:
 
-Podeu trobar els materials compilats a la carpeta `output`. Per visualitzar les diapositives i apunts, obriu els fitxers PDF corresponents.
+    ```bash
+    make apunts
+    ```
 
 ## Estructura del Repositori
 
