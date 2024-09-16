@@ -58,6 +58,12 @@ Per compilar els materials, seguiu aquests passos:
     make diapositives
     ```
 
+- Si voleu generar les diapostives amb notes de l'orador:
+
+    ```bash
+    make diapositives-annotacions
+    ```
+
 - Si voleu generar els apunts:
 
     ```bash

@@ -131,16 +131,12 @@ L'administració de sistemes és la disciplina tècnica que implica la configura
 :::
 
 ::: notes
+Quan parlem de garantir unes mètriques com la disponibilitat, rendiment, seguretat i funcionalitat d'un sistema ens referim a:
 
-A què ens referim quan diem garantir unes mètriques com la disponibilitat, el rendiment, la seguretat i la funcionalitat d'un sistema?
-
-- **Disponibilitat**: La disponibilitat d'un sistema es refereix a la capacitat d'aquest de romandre operatiu i accessible als usuaris en tot moment, minimitzant el temps d'inactivitat. Això implica assegurar que el sistema estigui disponible per a l'ús en qualsevol moment, evitant interrupcions i fallades.
-
-- **Rendiment**: El rendiment d'un sistema es refereix a la mesura de l'eficiència amb què aquest utilitza els recursos disponibles per executar tasques de manera ràpida i efectiva. Això implica garantir que el sistema pugui processar dades i executar tasques de manera eficient, sense retards ni interrupcions.
-
-- **Seguretat**: La seguretat d'un sistema es refereix a la capacitat d'aquest de protegir les dades i recursos contra accessos no autoritzats, atacs i pèrdues. Això implica implementar mesures de seguretat, com xifrat, autenticació, control d'accés i monitorització, per protegir la informació i els recursos del sistema.
-
-- **Funcionalitat**: La funcionalitat d'un sistema es refereix al conjunt de característiques i capacitats que aquest ofereix per complir amb els requisits operatius i les necessitats dels usuaris. Això implica garantir que el sistema pugui realitzar les tasques i funcions requerides, oferint una experiència d'usuari satisfactòria i complint amb les expectatives dels usuaris.
+- Disponibilitat: Assegurar que el sistema estigui sempre operatiu i accessible, minimitzant interrupcions.
+- Rendiment: Garantir que el sistema processi dades i tasques de manera ràpida i eficient.
+- Seguretat: Protegir el sistema contra accessos no autoritzats i atacs, mantenint les dades segures.
+- Funcionalitat: Assegurar que el sistema compleix les seves funcions i satisfa les necessitats dels usuaris.
 :::
 
 ## Què és l'Administració de Sistemes? *Anàlisi de la definicó (IV)*
@@ -195,7 +191,7 @@ Observa el següent clip durant els minuts 0:32 fins a 2:16. On l'autor fa una a
 :::
 
 ::: notes
-L'autor del clip fa una analogia entre l'administració de sistemes i la pel·lícula Matrix. En aquesta pel·lícula, els personatges principals són capaços de controlar i manipular el món virtual de Matrix, canviant la realitat a voluntat. Aquesta analogia reflecteix la capacitat dels administradors de sistemes per controlar i gestionar els sistemes informàtics, configurant-los, supervisant-los i mantenint-los per garantir el seu funcionament i seguretat. Compara matrix amb un super administrador de sistemes que controla tots els aspectes i us permet menjar dos pastilles per canviar la realitat (una de blava i una de vermella). Una us permet ser administrador de sistemes i l'altra us permet ser usuari de sistemes. Aquesta analogia és una manera divertida de visualitzar el paper dels administradors de sistemes i la seva capacitat per controlar i gestionar els sistemes informàtics.
+L'autor del clip fa una analogia entre l'administració de sistemes i la pel·lícula Matrix. En aquesta pel·lícula, els personatges principals són capaços de controlar i manipular el món virtual de Matrix, canviant la realitat a voluntat. Aquesta analogia reflecteix la capacitat dels administradors de sistemes per controlar i gestionar els sistemes informàtics, configurant-los, supervisant-los i mantenint-los per garantir el seu funcionament i seguretat. Compara matrix amb un super administrador de sistemes que controla tots els aspectes i us permet menjar dos pastilles per canviar la realitat (una de blava i una de vermella). Una us permet ser administrador de sistemes i l'altra us permet ser usuari de sistemes.
 :::
 
 ## Evolució de l'Administració de Sistemes (I)
@@ -245,11 +241,13 @@ Finalment, amb l'aparició dels conceptes *serverless* i *Function as a Service 
 ![](../../figs/tema0/visio.png)
 
 ::: notes
-L'administració de sistemes és una disciplina àmplia i diversa, que no segueix una única via d'aprenentatge. Aquesta professió inclou una gran varietat de rols i especialitzacions, però no compta amb un itinerari professional clarament establert, fet que dificulta l'ensenyament de tots els seus aspectes en una sola assignatura. Si observeu el pla d'estudis del Grau en Enginyeria Informàtica, veureu que inclou assignatures orientades a la programació, amb sortides professionals com a desenvolupadors de software en diferents àmbits. Alhora, també ofereix formació en computació (xarxes, sistemes operatius, bases de dades), amb possibilitats laborals com a enginyer de xarxes o administrador de bases de dades.
+L'administració de sistemes és una disciplina àmplia i diversa, que no segueix una única via d'aprenentatge. Aquesta professió inclou una gran varietat de rols i especialitzacions, però no compta amb un itinerari professional clarament establert, fet que dificulta l'ensenyament de tots els seus aspectes en una sola assignatura.
 
-Tradicionalment, l'administració de sistemes ha estat vinculada a les operacions, amb sortides professionals com a tècnic de suport o tècnic de centre de dades, sovint allunyades dels perfils d'un enginyer informàtic. No obstant això, avui en dia, l'administració de sistemes ha evolucionat significativament, donant lloc a perfils més avançats i tècnics com DevOps, SRE (Site Reliability Engineer), i Cloud Engineer, que ofereixen oportunitats laborals molt més atractives i alineades amb les necessitats del mercat actual.
+Si observeu el pla d'estudis del **Grau en Enginyeria Informàtica**, veureu que inclou assignatures orientades a la programació, amb sortides professionals com a desenvolupadors de software en diferents àmbits. Alhora, també ofereix formació en computació (*xarxes, sistemes operatius, bases de dades*), amb possibilitats laborals com a **enginyer de xarxes o administrador de bases de dades**.
 
-Aquesta assignatura té com a objectiu introduir-vos al món de l'administració de sistemes i aplicacions, així com a la seva gestió i manteniment. Ho farem amb una visió actualitzada, orientada cap a les sortides professionals més demandades en el mercat laboral, preparant-vos per a perfils amb més responsabilitat i especialització dins del camp de les tecnologies de la informació.
+Tradicionalment, l'**administració de sistemes** ha estat vinculada a les **operacions**, amb sortides professionals com a *tècnic de suport o tècnic de centre de dades*, sovint allunyades dels perfils d'un *enginyer informàtic*. No obstant això, avui en dia, l'administració de sistemes ha evolucionat significativament, donant lloc a perfils més avançats i tècnics com **DevOps, SRE (Site Reliability Engineer), i Cloud Engineer**, que ofereixen oportunitats laborals molt més atractives i alineades amb les necessitats del mercat actual.
+
+Aquesta assignatura us introdueix a la *gestió de sistemes i aplicacions*, enfocada en les sortides professionals actuals i més especialitzades dins del sector IT.
 :::
 
 ## Com s'apren a Administrar Sistemes?
@@ -554,25 +552,19 @@ El salari base segons el portal payscale a Espanya és de mitjana 30k amb un pot
 :::
 
 ::: notes
-Hi ha una gran varietat d'especialitzacions dins l'àmbit de l'administració de sistemes, cada una amb responsabilitats úniques que poden influir en el salari i els rols. A continuació, detallem algunes d'aquestes especialitzacions:
 
-- Administradors de Xarxa: S'encarreguen de la configuració, gestió i manteniment de routers, switches, firewalls i altres dispositius de xarxa en entorns físics i virtuals. La seva tasca és garantir la connectivitat i seguretat de les xarxes de l'empresa.
+L'administració de sistemes compta amb diverses especialitzacions, cadascuna amb tasques específiques que poden influir en els rols i salaris. A continuació, es presenten algunes de les més rellevants:
 
-- Administradors de Emmagatzematge: Gestionen sistemes de fitxers, solucions de còpies de seguretat i tecnologies d'emmagatzematge de dades com NETAPP o EMC. Són responsables d'assegurar que les dades estiguin segures i accessibles.
-
-- Administradors de Seguretat: Protegeixen els sistemes informàtics contra amenaces i atacs cibernètics. Implementen polítiques de seguretat, gestionen certificats digitals i realitzen auditories de seguretat per protegir la informació sensible.
-
-- Operadors de Xarxa: Supervisionen el funcionament diari de les xarxes, gestionant el trànsit de dades i resolent problemes de connexió o rendiment. S'asseguren que les xarxes funcionin sense interrupcions.
-
-- Arquitectes de Sistemes: Dissenyen i planifiquen la infraestructura tecnològica de l'empresa. Són responsables d'assegurar que els sistemes compleixin els requisits de rendiment, seguretat i escalabilitat.
-
-- Tècnics de Suport: Ofereixen assistència tècnica als usuaris, resolent problemes i incidents a través de sistemes de tickets. La seva tasca és garantir que els usuaris puguin utilitzar les tecnologies sense problemes.
-
--Tècnics de Centre de Dades: Gestionen i mantenen els servidors, xarxes i altres equips físics en els centres de dades. S'asseguren que el centre de dades funcioni amb alta disponibilitat i rendiment.
-
-- Enginyers de Sistemes: Són responsables de dissenyar, implementar i mantenir la infraestructura informàtica de l'empresa. La seva tasca és assegurar que els sistemes compleixin els requisits operatius i tècnics.
-
-Ara veurem dues especialitzacions més avançades i amb més demanda en el mercat laboral actual: Enginyer DEVOPS i Enginyer SRE (Site Reliability Engineer) amb detall. També us deixo un enllaç a un llibre que parla de les diferents especialitzacions.
+- **Administradors de Xarxa**: Gestionen dispositius com routers, switches i firewalls, garantint la seguretat i la connectivitat de les xarxes.
+- **Administradors d'Emmagatzematge**: S'encarreguen de sistemes de còpia de seguretat i emmagatzematge de dades, assegurant la seguretat i l'accessibilitat.
+- **Administradors de Seguretat**: Implementen polítiques per protegir els sistemes d'amenaces i ciberatacs.
+- **Operadors de Xarxa**: Supervisionen el funcionament diari de les xarxes i resolen problemes de rendiment o connexió.
+- **Arquitectes de Sistemes**: Dissenyen la infraestructura tecnològica, garantint escalabilitat, seguretat i rendiment.
+- **Tècnics de Suport**: Proporcionen assistència tècnica als usuaris, resolent incidències.
+- **Tècnics de Centre de Dades**: Gestionen servidors i equips en centres de dades, assegurant alta disponibilitat.
+- **Enginyers de Sistemes**: Implementen i mantenen la infraestructura de l'empresa, garantint el funcionament operatiu.
+  
+Les especialitzacions més avançades inclouen **Enginyer DevOps i Enginyer SRE** (Site Reliability Engineer), amb gran demanda en el mercat actual.
 :::
 
 ## Què és un Site Reliability Engineer (SRE)?
@@ -699,11 +691,9 @@ Els DevOps Engineers són professionals clau en la integració i col·laboració
 :::
 
 ::: notes
-Mentre que els Sysadmins tradicionalment s'ocupen de la gestió i manteniment de la infraestructura, com ara servidors, xarxes i sistemes operatius, els DevOps Engineers van més enllà d'aquestes tasques. El seu rol inclou l'automatització de processos, la implementació de pipelines de CI/CD, la gestió de contenidors (com Docker) i la infraestructura com a codi (IaC), com Terraform o Ansible. En lloc d'enfocar-se només en el manteniment i la disponibilitat dels sistemes, els DevOps Engineers treballen per integrar millor el desenvolupament i les operacions, assegurant que els nous llançaments de software siguin ràpids, segurs i consistents.
+Els **Sysadmins** tradicionalment s'encarreguen de la gestió i manteniment de la infraestructura, com servidors i xarxes. Els **DevOps Engineers**, però, van més enllà, enfocant-se en l'automatització de processos, la creació de pipelines de CI/CD i la gestió de contenidors (Docker) i infraestructura com a codi (IaC) amb eines com Terraform o Ansible. El seu objectiu és integrar desenvolupament i operacions per garantir llançaments de software ràpids i segurs.
 
-Tot i que hi ha solapaments entre DevOps i SRE, les diferències clau radican en l'enfocament i les prioritats. Mentre que els DevOps Engineers se centren en l'optimització dels processos de desenvolupament i operacions a través de la col·laboració i l'automatització, els SREs estan més orientats a la fiabilitat i escalabilitat dels sistemes en producció. El SRE té un enfocament més específic en mantenir els serveis en línia, gestionant incidents, optimitzant el rendiment i assegurant-se que es compleixen els SLA. Tot i que ambdós rols treballen amb eines similars, com CI/CD i contenidors, els SREs tenen més responsabilitats en la resolució d'incidents crítics i en la millora de la resiliència del sistema.
-
-Com podeu veure les eines tecnològiques que utilitzen els DevOps Engineers són molt similars a les dels SREs, però la seva aplicació i objectius són diferents. Per tant, apunteu-vos aquestes eines i tecnologies, ja que són essencials pel món laboral actual.
+Els **SREs (Site Reliability Engineers)** comparteixen eines amb els DevOps, però amb un enfocament diferent: la fiabilitat i escalabilitat dels sistemes en producció. Es concentren en mantenir els serveis actius, gestionar incidents i complir els SLA, mentre que els DevOps se centren en optimitzar els processos de desenvolupament i col·laboració entre equips. Tot i les similituds en les tecnologies que utilitzen, els seus objectius divergeixen: els DevOps milloren els processos de desenvolupament, i els SREs asseguren la resiliència del sistema.
 :::
 
 ## Salari d'un DevOps Engineer
@@ -808,11 +798,11 @@ Per exemple, quan un usuari accedeix a una pàgina web, el seu navegador actua c
 
 ::: notes
 
-Aquesta arquitectura té avantatges i inconvenients. Entre els avantatges es troba la centralització de les dades, ja que tota la informació es troba en un únic lloc, el que facilita la gestió i la recuperació de les dades. A més, permet establir polítiques de recuperació de dades i separar la lògica de negoci de la interfície d'usuari, el que facilita la gestió i el manteniment del sistema. D'aquesta manera, els desenvolupadors poden centrar-se en la lògica de negoci sense preocupar-se de la interfície d'usuari. Per exemple, en una aplicació web, la lògica de negoci es pot gestionar al servidor, mentre que la interfície d'usuari es pot gestionar al client.
-
-Els principals inconvenients d'aquesta arquitectura són els possibles atacs de denegació de serveis, els atacs de l'home al mig, el phishing i l'usurpació d'identitat. Aquests atacs poden comprometre la seguretat del sistema i posar en perill la informació dels usuaris. Per tant, és important implementar mesures de seguretat per protegir el sistema i les dades dels usuaris. Un atac de denegació de servei enviarà moltes peticions al servidor per saturar-lo i fer-lo caure. Un atac de l'home al mig intercepta les comunicacions entre el client i el servidor per obtenir informació sensible. El phishing és un atac en què els atacants envien correus electrònics falsos per enganyar els usuaris i obtenir informació confidencial. L'usurpació d'identitat implica fer-se passar per una altra persona per obtenir accés a informació o recursos sensibles. Per tant, és molt imporant ser conscients d'aquests riscos i implementar mesures de seguretat per protegir el sistema i les dades dels usuaris.
-
-A la figura s'observa com múltiples clients es comuniquen amb un servidor central per obtenir informació o serveis. I com multiples servidors poden comunicar-se amb altres servidors per obtenir informació o serveis. També 1 client pot comunicar-se amb múltiples servidors. Per exemple, un client pot accedir a un servidor web per obtenir informació i a un servidor de correu per enviar correus electrònics. El servidor web pot comunicar-se amb el servidor de correu per enviar notificacions als usuaris.
+- Múltiples clients es comuniquen amb un servidor central.
+- Múltiples servidors poden comunicar-se amb altres servidors.
+- 1 client pot comunicar-se amb múltiples servidors.
+- Un client pot accedir a un servidor web per obtenir informació i a un servidor de correu per enviar correus electrònics.
+- El servidor web pot comunicar-se amb el servidor de correu per enviar notificacions als usuaris.
 :::
 
 ## Quins són els tipus de servidors més comuns?
@@ -840,9 +830,6 @@ A la figura s'observa com múltiples clients es comuniquen amb un servidor centr
 :::
 
 ::: notes
-
-Hi ha molts tipus de servidors en funció de l'objectiu que tenen. Alguns dels servidors més comuns són els servidors d'autenticació, que s'encarreguen de gestionar l'accés dels usuaris als sistemes; els servidors de fitxers, que emmagatzemen i gestionen els fitxers i documents de l'empresa; els servidors de discos, que proporcionen emmagatzematge addicional als servidors; els servidors de correu, que gestionen el correu electrònic de l'empresa; els servidors de base de dades, que emmagatzemen i gestionen les dades de l'empresa; els servidors SSH, que permeten l'accés remot als servidors; els servidors web, que allotgen les pàgines web de l'empresa; els servidors d'aplicacions, que executen les aplicacions de l'empresa; els servidors de backups, que realitzen còpies de seguretat de les dades de l'empresa; i els servidors de còmput, que realitzen càlculs i processos computacionals entre altres.
-
 A la figura proporcionada es mostra una arquitectura típicament utilitzada per al desplegament d'una web escalable i fiable. En aquesta arquitectura, el punt d'entrada és un balancejador de càrrega, que distribueix les peticions entre els diversos servidors web. Els servidors web, que poden ser rèpliques, allotgen les pàgines web i gestionen les peticions dels usuaris. Aquestes pàgines web necessiten accedir a un servidor de base de dades per emmagatzemar i gestionar les dades associades.
 Cada base de dades està protegida per un servidor de backups, que realitza còpies de seguretat per garantir la recuperació en cas de fallades. A més, per millorar la velocitat de càrrega de les pàgines web, es fa servir un dispositiu CDN (Content Delivery Network) que redirigeix les peticions als servidors més propers a l'usuari.
 
@@ -877,11 +864,11 @@ Aquesta arquitectura és àmpliament utilitzada per allotjar llocs webs, ja que 
 
 ::: notes
 
-Un dels problemes més comuns en els servidors és determinar qui i com accedeix a la informació. Això implica definir qui (usuari, procés, servei) pot accedir a quins fitxers i directoris i com ho pot fer (lectura, escriptura, execució). Per fer-ho, es poden utilitzar permisos, llistes de control d'accés (ACLs) i polítiques de seguretat per garantir que només els usuaris autoritzats puguin accedir a la informació.
+Un dels problemes principals en els servidors és controlar qui accedeix a la informació i com ho fa. Això es gestiona mitjançant permisos, llistes de control d'accés (ACLs) i polítiques de seguretat per assegurar que només els usuaris autoritzats puguin accedir als fitxers i directoris, i establir si poden llegir, escriure o executar aquests elements.
 
-Un altre problema comú és com protegir la informació sensible i confidencial. Això implica determinar com protegir la informació per evitar l'accés no autoritzat. Per fer-ho, es poden utilitzar tècniques com l'encriptació, les contrasenyes, l'autenticació, l'autorització, l'auditoria i els backups per garantir la seguretat i la privacitat de la informació.
+També protegir la informació sensible contra l'accés no autoritzat. Aquest objectiu es pot assolir amb tècniques com l'encriptació, l'ús de contrasenyes, l'autenticació, l'autorització i l'auditoria, així com mitjançant còpies de seguretat (backups), per garantir la seguretat i privacitat de les dades.
 
-Un altre problema és com assegurar el sistema contra atacs i amenaces. Això implica protegir el sistema contra atacs externs i interns que puguin comprometre la seguretat i la integritat del sistema. Per fer-ho, es poden utilitzar eines com el firewall, els sistemes de detecció i prevenció d'intrusions (IDS/IPS), l'antivirus, les actualitzacions, els patches i el hardening per garantir la seguretat del sistema.
+Finalment, cal defensar el sistema contra possibles atacs i amenaces, tant externs com interns. Per aconseguir-ho, es poden utilitzar eines com firewalls, sistemes de detecció i prevenció d'intrusions (IDS/IPS), antivirus i actualitzacions de seguretat, així com tècniques d'autenticació robusta, incloent l'autenticació multifactorial, per protegir els accessos.
 
 Finalment, un altre problema és com autenticar els usuaris i els dispositius per garantir que siguin qui diuen ser. Això implica autenticar els usuaris i els dispositius per garantir que només els usuaris autoritzats puguin accedir a la informació. Per fer-ho, es poden utilitzar tècniques com les contrasenyes, els certificats digitals i l'autenticació multifactorial per garantir la seguretat i la privacitat de la informació.
 
@@ -925,16 +912,22 @@ Finalment, un altre problema és com analitzar post-mortem les causes d'un atac 
 
 ## Què és un centre de dades?
 
+\onslide<1->
+
+Un centre de dades és un espai físic on s'allotgen els servidors, els dispositius de xarxa i altres equips informàtics necessaris per emmagatzemar, processar i distribuir la informació.
+
+\onslide<2->
+
 :::center
 ![Esquema d'un centre de dades](../../figs/tema0/terminologia/datacenter.png){width=130mm}
 :::
 
 ::: notes
-Un centre de dades o data center és un espai físic on s'allotgen els servidors, els dispositius de xarxa i altres equips informàtics necessaris per emmagatzemar, processar i distribuir la informació. Aquests centres de dades poden ser propis de l'empresa o externs, i poden ser gestionats per l'empresa o per un proveïdor de serveis. Els centres de dades són essencials per a les empreses que necessiten emmagatzemar i processar grans quantitats de dades, ja que proporcionen l'espai, la infraestructura i els recursos necessaris per garantir el funcionament dels sistemes informàtics.
+Aquests centres de dades poden ser propis de l'empresa o externs, i poden ser gestionats per l'empresa o per un proveïdor de serveis. Els centres de dades són essencials per a les empreses que necessiten emmagatzemar i processar grans quantitats de dades, ja que proporcionen l'espai, la infraestructura i els recursos necessaris per garantir el funcionament dels sistemes informàtics.
 
 Un exemple notable de reutilització d'estructures per a centres de dades és l'ús d'edificis històrics com esglésies i mines abandonades. Aquests espais, amb les seves condicions úniques i sovint amb una infraestructura sòlida, són adaptats per allotjar servidors i equips. Per exemple, l'antiga església de Saint-Ouen a França ha estat convertida en un centre de dades, aprofitant la seva estructura i espai per complir amb els requisits tecnològics moderns. D'altra banda, la mina de carboni de Pionen a Suècia ha estat transformada en un centre de dades subterrani, oferint una protecció física addicional contra desastres naturals i atacs.
 
-Google disposa de servidors al fons del mar, aprofitant l'energia de les ones per refredar els servidors i reduir el consum energètic. Aquesta innovadora solució aprofita els recursos naturals per millorar l'eficiència energètica dels centres de dades i reduir l'impacte ambiental. Aquestes iniciatives mostren la diversitat de solucions i enfoques per a la gestió de centres de dades, adaptant-se a les necessitats i condicions específiques de cada empresa.
+Google disposa de servidors al fons del mar, aprofitant l'energia de les ones per refredar els servidors i reduir el consum energètic. Aquestes iniciatives mostren la diversitat de solucions i enfoques per a la gestió de centres de dades, adaptant-se a les necessitats i condicions específiques de cada empresa.
 :::
 
 ## Què és un rack?
@@ -1033,7 +1026,7 @@ No confondre un switch amb un router. Un switch connecta diversos equips dins de
 :::
 
 ::: notes
-En el disseny de sistemes informàtics, és important tenir en compte diverses característiques per garantir que el sistema sigui eficient, segur i fiable. Algunes de les característiques més importants d'un sistema són la simplicitat, l'escalabilitat, la seguretat, la fiabilitat, la disponibilitat, el rendiment i la facilitat d'ús. Ara bé, sovint intentem dotar sistemes amb característiques que no es poden afegir després de la seva construcció. Per exemple, intentar aplicar "seguretat" després que les interfícies del sistema hagin estat definides produeix restriccions i limitacions; intentar fer un sistema amb limitacions intrínseques funcionar en circumstàncies per les quals no va ser dissenyat produeix "hacks" i "workarounds" i el resultat final sovint essembla més una casa de cartes fràgil que una estructura sòlida i fiable.
+En el disseny de sistemes informàtics, és important tenir en compte diverses característiques per garantir que el sistema sigui eficient, segur i fiable. Algunes de les característiques més importants d'un sistema són la simplicitat, l'escalabilitat, la seguretat, la fiabilitat, la disponibilitat, el rendiment i la facilitat d'ús. Ara bé, sovint intentem dotar sistemes amb característiques que no es poden afegir després de la seva construcció. Per exemple, intentar aplicar *seguretat* després que les interfícies del sistema hagin estat definides produeix restriccions i limitacions; intentar fer un sistema amb limitacions intrínseques funcionar en circumstàncies per les quals no va ser dissenyat produeix *hacks* i *workarounds* i el resultat final sovint essembla més una casa de cartes fràgil que una estructura sòlida i fiable.
 
 Per tant, quan discutim sobre el disseny de sistemes informàtics, és important tenir en compte aquestes característiques i assegurar-nos que el sistema compleixi els objectius de l'empresa i sigui capaç de respondre a les necessitats dels usuaris
 :::
@@ -1069,11 +1062,7 @@ Per exemple, el serveis al núvol permeten pagar només pel que s'utilitza, perm
 :::
 
 ::: notes
-Escalabilitat es refereix a la capacitat d'un sistema per gestionar un augment en la càrrega de treball sense que el seu rendiment es vegi afectat. És un concepte clau en el disseny de sistemes informàtics, especialment en entorns amb variacions en la demanda. Aquesta capacitat s'aconsegueix mitjançant dues estratègies principals:
-
-- Escalabilitat Vertical: Consisteix en millorar la capacitat d'un servidor afegint més recursos com CPU, memòria o disc. Això permet que un servidor maneje una càrrega de treball més gran sense necessitat d'addicional hardware.
-
-- Escalabilitat Horitzontal: Consisteix en augmentar la capacitat del sistema afegint més servidors. Això distribueix la càrrega de treball entre diversos servidors, millorant la capacitat global del sistema.
+Escalabilitat es refereix a la capacitat d'un sistema per gestionar un augment en la càrrega de treball sense que el seu rendiment es vegi afectat. És un concepte clau en el disseny de sistemes informàtics, especialment en entorns amb variacions en la demanda.
 
 En l'entorn de cloud computing, aquest concepte es relaciona sovint amb elasticitat, que és la capacitat d'un sistema per adaptar-se de manera dinàmica a les fluctuacions de la càrrega de treball. Per exemple, una botiga en línia podria experimentar un augment significatiu de trànsit durant el Black Friday. Un sistema escalable i elàstic podria gestionar aquest augment de demanda sense perdre rendiment, i després reduir la capacitat quan la demanda torna a nivells normals.
 
@@ -1161,8 +1150,6 @@ Per exemple, un sistema LEGO és un exemple de simplicitat, ja que es pot constr
 
 KISS és una directriu de disseny que destaca la importància de la simplicitat. Aplicant aquest principi, els sistemes resulten ser més robustos i fàcils de gestionar, cosa que millora la seva eficàcia i la satisfacció de l'usuari.
 
-Algunes pautes per aplicar el principi KISS en el disseny de sistemes són:
-
 - **Divideix i venceràs**: Divideix el sistema en components més petits i senzills, per exemple, en lloc de tenir un gran monòlit, divideix el sistema en microserveis.
 
 - **Minimitza la complexitat**: Evita la complexitat innecessària i mantén el sistema senzill, per exemple, evita l'ús de tecnologies i funcionalitats que no són necessàries.
@@ -1170,10 +1157,6 @@ Algunes pautes per aplicar el principi KISS en el disseny de sistemes són:
 - **Utilitza estàndards**: Utilitza estàndards i pràctiques comunes per simplificar el disseny, per exemple, segueix les pràctiques de codificació i disseny recomanades per la comunitat.
 
 - **Documenta el sistema**: Documenta el sistema per facilitar la comprensió i el manteniment, per exemple, crea documentació clara i concisa per als desenvolupadors i els usuaris.
-
-- **Automatitza les tasques repetitives**: Utilitza la automatització per simplificar les tasques repetitives i reduir els errors humans, per exemple, automatitza les tasques de desplegament i proves per millorar l'eficiència i la fiabilitat del sistema.
-
-Un exemple de simplicitat és un sistema LEGO, que permet als usuaris construir gairebé qualsevol cosa combinant peces senzilles. Aquesta simplicitat permet als usuaris crear i modificar les seves pròpies creacions sense necessitat de coneixements tècnics avançats.
 :::
 
 # Eines i tecnologies
@@ -1196,18 +1179,7 @@ Un exemple de simplicitat és un sistema LEGO, que permet als usuaris construir 
 :::
 
 ::: notes
-En el món de l'administració de sistemes, hi ha una gran varietat d'eines i tecnologies que es poden utilitzar per gestionar i mantenir els sistemes informàtics. Algunes de les eines i tecnologies més comuns són:
 
-- **Virtualització**: La virtualització permet crear màquines virtuals i contenidors per aïllar i gestionar els recursos del sistema. Això permet millorar l'eficiència i la flexibilitat dels sistemes, ja que es poden crear múltiples entorns virtuals en un sol servidor físic.
-- **Cloud Computing**: El cloud computing ofereix serveis informàtics a través d'Internet, permetent als usuaris accedir a recursos informàtics a la demanda. Això inclou Infraestructura com a Servei (IaaS), Plataforma com a Servei (PaaS) i Software com a Servei (SaaS).
-- **Automatització**: L'automatització permet automatitzar tasques repetitives i reduir els errors humans. Algunes eines d'automatització com Ansible, Puppet i Chef permeten gestionar la configuració dels servidors de manera eficient.
-- **Infraestructura com a Codi**: L'infraestructura com a codi permet gestionar la infraestructura de manera programàtica, utilitzant codi per definir i gestionar els recursos del sistema. Eines com Terraform i CloudFormation permeten gestionar la infraestructura com a codi.
-- **Monitorització**: La monitorització permet supervisar l'estat dels sistemes i identificar problemes abans que afectin el rendiment. Algunes eines de monitorització com Nagios, Zabbix i Prometheus permeten supervisar els sistemes en temps real.
-- **CI/CD**: La integració contínua (CI) i el desplegament contínu (CD) permeten automatitzar el procés de desenvolupament i desplegament de codi. Eines com Jenkins i GitLab CI permeten implementar pràctiques de CI/CD.
-- **Seguretat**: La seguretat dels sistemes és una preocupació important en l'administració de sistemes. Algunes eines de seguretat com PfSense, Suricata i Snort permeten protegir els sistemes contra atacs i amenaces.
-- **Bases de Dades**: Les bases de dades són essencials per emmagatzemar i gestionar la informació dels sistemes. Algunes bases de dades com MySQL, PostgreSQL i MongoDB són àmpliament utilitzades en l'administració de sistemes.
-- **Serveis Web**: Els serveis web són essencials per proporcionar serveis i aplicacions a través d'Internet. Algunes eines com Apache, Nginx i Tomcat permeten gestionar i desplegar serveis web.
-- **Orquestació de Contenidors**: L'orquestació de contenidors permet gestionar i coordinar els contenidors en un entorn de contenidors. Eines com Kubernetes i Docker Swarm permeten gestionar i escalar els contenidors de manera eficient.
 :::
 
 ## Virtualització (Màquines Virtuals)
@@ -1218,12 +1190,10 @@ En el món de l'administració de sistemes, hi ha una gran varietat d'eines i te
 
 ::: notes
 
-La virtualització és una tecnologia clau que permet aprofitar millor els recursos d'un servidor físic, creant múltiples màquines virtuals (VMs) que funcionen com a entitats independents, cadascuna amb el seu propi sistema operatiu i aplicacions. Aquest enfocament permet millorar l'eficiència, ja que múltiples màquines virtuals poden compartir un únic servidor físic, maximitzant l'ús dels recursos disponibles i oferint més flexibilitat a l'hora de gestionar sistemes. Per exemple, si voleu executar tant Windows com Linux al vostre ordinador per fer proves, podeu crear màquines virtuals per a cada sistema operatiu utilitzant programes com VirtualBox o VMware. Això us permet treballar amb diferents entorns sense necessitat de tenir diversos ordinadors físics. A nivell de servidors, aquesta mateixa idea es porta a gran escala: un sol servidor físic pot tenir múltiples màquines virtuals aïllades, cada una amb la seva funció específica. Això permet consolidar serveis i maximitzar l'ús de recursos. Per exemple, en una empresa, un sol servidor físic podria allotjar VMs per a bases de dades, aplicacions web, i sistemes de correu, cadascun funcionant de manera independent.
-
-- Virtualització Nativa: També coneguda com a "bare-metal", en aquest tipus, l'hipervisor s'executa directament sobre el maquinari físic sense cap sistema operatiu intermedi. Exemples d'aquesta tecnologia inclouen VMware ESXi o Microsoft Hyper-V. Això ofereix un rendiment molt elevat, ja que no hi ha cap capa addicional entre el maquinari i l'hipervisor, ideal per a entorns de producció.
-- Virtualització Allotjada: Aquí, l'hipervisor s'executa sobre un sistema operatiu ja existent. Per exemple, en KVM (Kernel-based Virtual Machine), s'utilitza Linux com a sistema operatiu base, i sobre aquest es creen les màquines virtuals. Aquest enfocament és més fàcil d'implementar però pot sacrificar una mica de rendiment en comparació amb la virtualització nativa.
-- Paravirtualització: En aquest model, el sistema operatiu convidat sap que està sent virtualitzat i coopera amb l'hipervisor per millorar el rendiment. Un exemple destacat és Xen, que és molt utilitzat en entorns cloud per la seva eficiència. Aquest tipus de virtualització pot oferir un rendiment proper al de la virtualització nativa, però amb més flexibilitat.
-- Virtualització Assistida per Hardware: Aquest model aprofita les capacitats del processador per accelerar el procés de virtualització. Processadors moderns com els d'Intel (VT-x) o AMD (AMD-V) ofereixen suport per a aquest tipus de virtualització, que és utilitzat per tecnologies com VMware o Hyper-V.
+- **Virtualització Nativa**: Hipervisor s'executa directament sobre el maquinari físic sense cap sistema operatiu intermedi. Exemples d'aquesta tecnologia inclouen VMware ESXi o Microsoft Hyper-V. Això ofereix un rendiment molt elevat, ja que no hi ha cap capa addicional entre el maquinari i l'hipervisor, ideal per a entorns de producció.
+- **Virtualització Allotjada**: Hipervisor s'executa sobre un sistema operatiu ja existent. Per exemple, en KVM, s'utilitza Linux com a sistema operatiu base, i sobre aquest es creen les màquines virtuals.
+- **Paravirtualització**: El sistema operatiu convidat sap que està sent virtualitzat i coopera amb l'hipervisor per millorar el rendiment. Un exemple destacat és Xen, que és molt utilitzat en entorns cloud per la seva eficiència.
+- **Virtualització Assistida per Hardware**: Aquest model aprofita les capacitats del processador per accelerar el procés de virtualització. Processadors moderns com els d'Intel (VT-x) o AMD (AMD-V) ofereixen suport per a aquest tipus de virtualització (VMware o Hyper-V).
 :::
 
 ## Virtualització (Contenidors)
@@ -1233,9 +1203,9 @@ La virtualització és una tecnologia clau que permet aprofitar millor els recur
 :::
 
 ::: notes
-La virtualització de contenidors és una tecnologia que permet als desenvolupadors empaquetar aplicacions i les seves dependències en un contenidor lleuger i portàtil que pot ser executat en qualsevol sistema que tingui un motor de contenidors. Aquest enfocament permet als desenvolupadors crear, distribuir i executar aplicacions de manera eficient i fiable, ja que els contenidors són autosuficients i aïllats de l'entorn d'execució. A més, els contenidors són lleugers i portàtils, el que facilita la seva distribució i execució en entorns diversos.
+La virtualització de contenidors és una tecnologia que permet als desenvolupadors empaquetar aplicacions i les seves dependències en un contenidor lleuger i portàtil que pot ser executat en qualsevol sistema que tingui un motor de contenidors.  
 
-Per exemple, Docker o containerd són motors de contenidors que permeten als desenvolupadors crear i executar contenidors lleugers i portàtils. Aquests contenidors poden contenir aplicacions, serveis o microserveis, i es poden executar en qualsevol sistema que tingui un motor de contenidors instal·lat. Això permet als desenvolupadors crear, distribuir i executar aplicacions de manera eficient i fiable, ja que els contenidors són autosuficients i aïllats de l'entorn d'execució.
+Per exemple, **Docker o containerd** són motors de contenidors que permeten als desenvolupadors crear i executar contenidors lleugers i portàtils. Aquests contenidors poden contenir aplicacions, serveis o microserveis, i es poden executar en qualsevol sistema que tingui un motor de contenidors instal·lat.
 
 La principal diferència entre la virtualització de màquines virtuals i la virtualització de contenidors és el nivell d'abstracció. Mentre que les màquines virtuals virtualitzen tota una màquina física, incloent el sistema operatiu, els contenidors virtualitzen només l'aplicació i les seves dependències, compartint el mateix nucli del sistema operatiu hoste. Això fa que els contenidors siguin més lleugers i portàtils que les màquines virtuals, i permet als desenvolupadors crear i executar aplicacions de manera més eficient i fiable.
 :::
@@ -1383,9 +1353,9 @@ AWS CloudFormation és un servei que permet als desenvolupadors definir i desple
 
 ### Materials del curs
 
-- **Organització**   --- [AMSA-GEI-IGUALADA-2425](https://github.com/AMSA-GEI-IGUALADA-2425)
-- **Materials**    --- [Materials del curs](https://github.com/AMSA-GEI-IGUALADA-2425/materials)
-- **Laboratoris**  --- [Laboratoris](https://github.com/AMSA-GEI-IGUALADA-2425/laboratoris)
+- **Organització**   --- [AMSA-GEI-IGUALADA-2425](https://github.com/AMSA-2425-GEI-UDL)
+- **Materials**    --- [Materials del curs](https://github.com/AMSA-2425-GEI-UDL/materials)
+- **Laboratoris**  --- [Laboratoris](https://github.com/AMSA-2425-GEI-UDL/laboratoris)
 - **Recursos**    --- [Campus Virtual](https://cv.udl.cat/)
 
 [**TAKE HOME MESSAGE**]{.alert}: Un administrador de sistemes combina habilitats de bomber i investigador: ha de solucionar problemes de manera ràpida i efectiva, però també anticipar-se i prevenir-ne de futurs abans que esdevinguin crítics. Aquesta tasca és complexa i diversa, abastant des de la gestió de cables i servidors físics fins a l'administració de pods i sistemes automàtics sense servidor (*serverless*).
