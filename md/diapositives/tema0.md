@@ -250,7 +250,7 @@ Tradicionalment, l'**administració de sistemes** ha estat vinculada a les **ope
 Aquesta assignatura us introdueix a la *gestió de sistemes i aplicacions*, enfocada en les sortides professionals actuals i més especialitzades dins del sector IT.
 :::
 
-## Com s'apren a Administrar Sistemes?
+## Com s'aprèn a Administrar Sistemes?
 
 \onslide<1->
 
