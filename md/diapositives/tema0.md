@@ -62,7 +62,7 @@ L'administració de sistemes és la *disciplina tècnica* que implica la [config
 Si preguntem a ChatGPT que ens defineixi formalment què és l'Administració de Sistemes, ens dirà que és la disciplina tècnica que implica la configuració, la gestió, la supervisió i el manteniment continu d'infraestructures informàtiques (servidors, xarxes, emmagatzematge de dades, programari, seguretat, etc.), per garantir la seva disponibilitat, rendiment, seguretat i funcionalitat, amb l'objectiu de satisfer les necessitats operacionals i estratègiques de l'organització.
 :::
 
-## Què és l'Administració de Sistemes? *Anàlisi de la definicó (I)*
+## Què és l'Administració de Sistemes? *Anàlisi de la definició (I)*
 
 \onslide<1->
 
@@ -81,7 +81,7 @@ Fixeu-vos en els elements clau de la definició:
 Segons la RAE, un **administrador** és una persona que té cura, gestiona o dirigeix els béns o els interessos d'una altra persona o entitat. En aquest cas, configurar, gestionar, supervisar i mantenir sistemes informatics.  Això implica que la primera part de la definició de ChatGPT està en línia amb la definició de l'administrador.
 :::
 
-## Què és l'Administració de Sistemes? *Anàlisi de la definicó (II)*
+## Què és l'Administració de Sistemes? *Anàlisi de la definició (II)*
 
 \onslide<1->
 
@@ -97,7 +97,7 @@ Un **sistema** és un conjunt d'elements interconnectats que treballen junts per
 Segons la RAE, un **sistema** és un conjunt d'elements interconnectats que treballen junts per aconseguir un objectiu comú. El **Sistema Informàtic** està format per hardware, programari, dades, xarxes, persones, etc., que treballen junts per processar informació. Això implica que la segona part de la definició de ChatGPT necessita ser més específica per reflectir la complexitat i diversitat dels sistemes informàtics i no únicament la infraestructura.
 :::
 
-## Què és l'Administració de Sistemes? *Anàlisi de la definicó (III)*
+## Què és l'Administració de Sistemes? *Anàlisi de la definició (III)*
 
 \onslide<1->
 
@@ -139,7 +139,7 @@ Quan parlem de garantir unes mètriques com la disponibilitat, rendiment, segure
 - Funcionalitat: Assegurar que el sistema compleix les seves funcions i satisfa les necessitats dels usuaris.
 :::
 
-## Què és l'Administració de Sistemes? *Anàlisi de la definicó (IV)*
+## Què és l'Administració de Sistemes? *Anàlisi de la definició (IV)*
 
 \onslide<1->
 
@@ -250,7 +250,7 @@ Tradicionalment, l'**administració de sistemes** ha estat vinculada a les **ope
 Aquesta assignatura us introdueix a la *gestió de sistemes i aplicacions*, enfocada en les sortides professionals actuals i més especialitzades dins del sector IT.
 :::
 
-## Com s'apren a Administrar Sistemes?
+## Com s'aprèn a Administrar Sistemes?
 
 \onslide<1->
 
