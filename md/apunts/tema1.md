@@ -52,9 +52,9 @@ La primera limitació és l’espai dedicat al *bootloader*, que només té 446 
 
 La segona limitació és que el *bootloader* de primera etapa no és prou sofisticat per llegir sistemes de fitxers estàndard. Per tant, s'ha de col·locar el *bootloader* de segona etapa en un lloc fàcilment accessible. Per exemple:
 
-- El *bootloader* de segona etapa pot residir en l'espai no utilitzat entre l'MBR i la primera partició del disc, conegut com a "zona morta".
+- El *bootloader* de segona etapa pot residir en l'espai no utilitzat entre l'MBR i la primera partició del disc, conegut com a *zona morta*.
 
-- Alternativament, el *bootloader* de segona etapa pot residir en una partició marcada com a "activa", on el *bootloader* de primera etapa llegeix i executa el *bootloader* de segona etapa des del començament d'aquesta partició.
+- Alternativament, el *bootloader* de segona etapa pot residir en una partició marcada com a *activa*, on el *bootloader* de primera etapa llegeix i executa el *bootloader* de segona etapa des del començament d'aquesta partició.
 
 Per garantir un arrencada correcta s'ha de garantir que tots els componentes BIOS, MBR i *bootloader* de primera i segona etapa estiguin correctament instal·lats i siguin compatibles.
 
